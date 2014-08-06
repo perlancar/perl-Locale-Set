@@ -1,6 +1,9 @@
 package SHARYANTO::Locale::Util;
 
-use 5.010;
+# DATE
+# VERSION
+
+use 5.010001;
 use strict;
 use warnings;
 
@@ -20,8 +23,6 @@ our %EXPORT_TAGS = (
     all      => ['setlocale', @posix_consts],
     locale_h => ['setlocale', @posix_consts],
 );
-
-# VERSION
 
 sub setlocale {
     my $cat = shift;
