@@ -1,4 +1,4 @@
-package SHARYANTO::Locale::Util;
+package Locale::Set;
 
 # DATE
 # VERSION
@@ -52,7 +52,7 @@ sub setlocale {
 }
 
 1;
-# ABSTRACT: Locale utilities
+# ABSTRACT: Set locale (small wrapper POSIX::setlocale)
 
 =head1 SYNOPSIS
 
